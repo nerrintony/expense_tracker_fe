@@ -19,7 +19,7 @@ export default function SignUpPage() {
     e.preventDefault();
     setLoading(true);
     // Simulate API call
-    await new Promise((r) => setTimeout(r, 1200));
+    // await new Promise((r) => setTimeout(r, 1200));
     setLoading(false);
   };
 

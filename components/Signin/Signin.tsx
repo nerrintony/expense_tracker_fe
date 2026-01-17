@@ -17,8 +17,8 @@ export default function SignInPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
-    // Simulate API call
-    await new Promise((r) => setTimeout(r, 1200));
+    // // Simulate API call
+    // await new Promise((r) => setTimeout(r, 1200));
     setLoading(false);
   };
 
