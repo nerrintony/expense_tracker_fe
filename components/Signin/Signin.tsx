@@ -7,7 +7,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Checkbox } from '@/components/ui/checkbox';
 import { Separator } from '@/components/ui/separator';
-import { Eye, EyeOff, Github, Loader2 } from 'lucide-react';
+import { Eye, EyeOff, Loader2 } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export default function SignInPage() {
@@ -91,15 +91,14 @@ export default function SignInPage() {
               </div>
             </div>
 
-            <div className="grid grid-cols-1 gap-3">
+            {/* <div className="grid grid-cols-1 gap-3">
               <Button variant="outline" className="w-full">
                 <Github className="mr-2 h-4 w-4" /> GitHub
               </Button>
-              {/* Add Google/Other providers here */}
-            </div>
+            </div> */}
 
             <p className="text-center text-sm text-muted-foreground">
-              Don’t have an account?{' '}
+              {'Don’t have an account?'}
               <a href="#" className="text-primary hover:underline">
                 Sign up
               </a>
